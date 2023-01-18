@@ -1,0 +1,23 @@
+{
+  "name": "sentry-debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modestaspruckus/sentry-debug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modestaspruckus/sentry-debug/issues"
+  },
+  "homepage": "https://github.com/modestaspruckus/sentry-debug#readme",
+  "dependencies": {
+    "@sentry/node": "^7.31.1",
+    "express": "^4.18.2"
+  }
+}
