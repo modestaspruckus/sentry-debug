@@ -1,6 +1,13 @@
 const express = require("express");
 const Sentry = require("@sentry/node");
 
+process.on('uncaughtException', (error) => {
+	console.error('uncaughtException occured');
+});
+process.on('unhandledRejection', (error) => {
+	console.error('unhandledRejection occurred, promise has not been handled properly');
+});
+
 const app = express();
 
 Sentry.init({
